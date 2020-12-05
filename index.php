@@ -12,9 +12,10 @@ $router->get('/php/router/about',function(){
 
 $router->get('/php/router', function() {
   return <<<HTML
-  <h1>Hello world</h1>
-HTML;
+    <h1>Hello world</h1>
+  HTML;
 });
+
 $router->get('/about', function() {
  return "about";
 });
