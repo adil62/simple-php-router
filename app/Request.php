@@ -1,6 +1,7 @@
 <?php 
 
-require_once('Irequest.php');
+use App\Interfaces\IRequest;
+// require_once('Irequest.php');
 
 class Request implements Irequest{
 	
@@ -27,4 +28,3 @@ class Request implements Irequest{
     	}
 	}
 }
-

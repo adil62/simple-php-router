@@ -1,6 +1,6 @@
 <?php
 
-class Router{
+class Router {
 
 	private $request;
 	private $supported_methods = array("GET","POST");

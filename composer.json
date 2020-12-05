@@ -1,0 +1,11 @@
+{
+    "name": "adil/simple-php-router",
+    "description": "simple php router",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        }
+    },
+    "require": {}
+}
